@@ -1,0 +1,121 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+:focus, :active {
+    outline: none;
+}
+a:focus, a:active {
+    outline: none;
+}
+nav, footer, header, aside {
+    display: block;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button,a {
+    cursor: pointer;
+    background: none;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+}
+body{
+    background: gray;
+}
+/* reset Settings */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* form */
+.form {
+    width: 400px;
+    border: 2px solid #E27B30;
+    border-radius: 1.5rem;
+    background: #2B2C2D;
+}
+.form__title {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-bottom: 2px solid #E27B30;
+}
+.form__inner {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 43px;
+}
+.form__input {
+    border: 1px solid #E27B30;
+    color: black;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: all 500ms ease-in-out;
+}
+.form__input:focus{
+    border: 1px solid white;
+    background: #e27a30af;
+}
+.form-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+.form__label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.form__btn {
+    width: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+    padding: 12px 0;
+    background: #E27B30;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+}
